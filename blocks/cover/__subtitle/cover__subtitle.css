@@ -6,7 +6,8 @@
   margin: 32px auto 0;
   max-width: 374px;
   position: relative;
-  z-index: 3;
+  color: #fff;
+  z-index: 30;
 }
 
 @media screen and (max-width: 500px) {
