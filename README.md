@@ -1,39 +1,39 @@
-# Проект: Путешествия по России
+# Journey in Russia
 
-С 2020 года внутренний туризм для россиян оказался особенно востребован. На данном сайте вы сможете познакомиться и найти для себя места в России, в которых еще не побывали, но обязательно должны успеть. Тут собрана информация о самых живописных местах нашей страны.
+Since 2020 domestic tourism for Russians has been in particular demand. On this site you can get acquainted and find new russian places in Russia, where you must have time. Here you can find information about the most picturesque places of Russia.
 
-## Функциональность
+## Functions
 
-На этом сайте пользователь сможет:
+On this site the user is able to:
 
-* просмотреть информацию от туристических местах и перейти по ссылкам их представительств;
-* подготовиться к путешествию, воспользовавшись ресурсами в "подвале";
-* перейти и прочитать блог о путешествии до Байкала из первых уст.
+* read information about tourist places and click on links to their representative offices;
+* prepare for the trip by using the resources in the "basement";
+* go to and learn the blog about the journey to Baikal firsthand.
 
-## Технологии
+## Technology stack
 
-Макет проекта, размещенный в Фигме, иллюстрирует, каким образом должны отображаться блоки и элементы в разрешениях, свойственных для разных типов устройств.
+The project layout in Figma illustrates the blocks and elements' position in different devices' resolutions.
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Figma layout link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-1. Проект реализован в пользу корректного отображения на представленных разрешениях. Ключевая технология, обеспечившая респонсив сайта:
+1. The key technology for the responsive of the website is:
 ```css
 .block {
   display: grid;  
 }
 ```
 
-Также здесь встречаются флекс-боксы, служащие той же цели - строению отзывчивости страницы.
+As well for responsive realization there are flexboxes.
 
-2. Картинка с поездами представляет собой бекграунд-ссылку. Псевдоэлемент `::before` был применен для этой задачи.
+2. The picture with the trains is a backgroud link. The pseudo element `::before` was implemented for this task.
 
-3. Файловая структура организована по методологии БЭМ, что означает гибкость в модификации проекта. Каждый контекстный блок может быть переиспользован, если потребуется дополнение информации, или удален без влияния на соседние блоки.
+3. The file structure is organized according to BEM methodology, which means flexibility in project modification. Each contextual block can be reused if additional information is needed, or deleted without affecting adjacent blocks.
 
 
-**Ссылка на GitHub Pages**
+**Link GitHub Pages**
 
-Проект опубликован по [данной ссылке](https://barbylka.github.io/russian-travel/).
+The project is published [here](https://barbylka.github.io/russian-travel/).
 
-Данный проект создан в качестве учебного проекта курса веб-разработки, поэтому любые комментарии по доработке и оптимизации приветствуются!
+This project was developed as a training course project, thus, any comments on refinement and optimization are welcome!
