@@ -1,4 +1,4 @@
-# Journey in Russia
+# The Journey in Russia
 
 Since 2020 domestic tourism for Russians has been in particular demand. On this site you can get acquainted and find new russian places in Russia, where you must have time. Here you can find information about the most picturesque places of Russia.
 
