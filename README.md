@@ -31,6 +31,13 @@ As well for responsive realization there are flexboxes.
 
 3. The file structure is organized according to BEM methodology, which means flexibility in project modification. Each contextual block can be reused if additional information is needed, or deleted without affecting adjacent blocks.
 
+## The refinement plan:
+
+1. Enable English translation via the button in the footer,
+
+2. Add a kilometers traveled counter on the scroll,
+
+3. Connect Webpack.
 
 **Link GitHub Pages**
 
